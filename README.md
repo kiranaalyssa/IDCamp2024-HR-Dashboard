@@ -22,7 +22,7 @@ Dashboard ini akan dibuat menggunakan Metabase, yang terintegrasi dengan databas
 * Visualisasi data interaktif dalam bentuk diagram dan tabel.
 
 ## Persiapan
-Sumber Data:
+Sumber Data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
 Setup Environment:
 1. Instalasi library Pandas SQLAlchemy.
