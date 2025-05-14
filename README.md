@@ -27,14 +27,16 @@ Sumber Data:
 Setup Environment:
 1. Instalasi library Pandas SQLAlchemy.
 2. Untuk **menghubungkan aplikasi Python dengan database PostgreSQL di Supabase** menggunakan **SQLAlchemy** seperti kode dibawah ini. Setelah terhubung, data yang disimpan dalam variabel `df` (DataFrame) akan dipindahkan ke dalam tabel **'employee_attrition'** di database Supabase.
-    ```
-    from sqlalchemy import create_engine
 
-    URL = 'your_database_password_here'  # Ganti dengan password yang sesuai
+        ```
+        from sqlalchemy import create_engine
 
-    engine = create_engine(URL)
-    df.to_sql('employee_attrition', engine)
-    ```
+        URL = 'your_database_password_here'  # Ganti dengan password yang sesuai
+
+        engine = create_engine(URL)
+        df.to_sql('employee_attrition', engine)
+        ```
+   
 3. Membuat container Metabase versi metabase/metabase:latest pada Docker dan dijalankan di port 3000:3000.
 
 ## Business Dashboard
