@@ -94,6 +94,6 @@ Rating kepuasan terhadap lingkungan kerja masih rendah, hanya di angka 1–1.5 d
 * **Berikan Perhatian Khusus pada Posisi dan Departemen dengan Turnover Tinggi.**
 Misalnya, posisi seperti Laboratory Technician, Sales Executive, dan departemen Research. Perlu strategi khusus untuk menjaga karyawan tetap betah di bagian-bagian ini.
 * **Tingkatkan Program Pelatihan dan Pengembangan Karyawan.**
-Banyak karyawan keluar setelah hanya mendapatkan 1.5–2.5 pelatihan per tahun. Dengan meningkatkan jumlah dan kualitas pelatihan, karyawan akan merasa lebih berkembang dan termotivasi untuk bertahan
+Banyak karyawan keluar setelah hanya mendapatkan 1.5–2.5 pelatihan per tahun. Dengan meningkatkan jumlah dan kualitas pelatihan, karyawan akan merasa lebih berkembang dan termotivasi untuk bertahan.
 * **Lakukan Evaluasi dan Penyesuaian Gaji.**
 Karena sebagian besar karyawan yang keluar bergaji sekitar $2.5k, perusahaan perlu memastikan struktur gaji tetap kompetitif dan sesuai dengan beban kerja, terutama untuk posisi-posisi yang rawan ditinggalkan.
