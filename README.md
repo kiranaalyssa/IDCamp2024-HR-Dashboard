@@ -74,8 +74,8 @@ Fitur ini berfungsi untuk menampilkan data aktual terkini yang meliputi:
 Berdasarkan dashboard yang telah dibuat, didapatkan beberapa insight terkait karyawan yang mengalami attrition yaitu:
 
 1. Attrition Rate perusahaan saat ini adalah 16.9%, dengan total 179 karyawan keluar.
-2. Rata-rata kepuasan kerja dari karyawan yang keluar berada di angka 2.61 dari 4, menunjukkan tingkat kepuasan yang tergolong sedang ke rendah.
-3. Karyawan yang keluar memiliki rata-rata usia 33 tahun dan rata-rata total pengalaman kerja 8 tahun.
+2. Rata-rata kepuasan kerja dari karyawan yang keluar berada di angka 2.61 dari 4, menunjukkan tingkat kepuasan yang tergolong rendah.
+3. Karyawan yang keluar memiliki rata-rata usia 33 tahun dan rata-rata total lama masa kerja 8 tahun.
 4. Sebagian besar yang keluar adalah laki-laki, dengan masa kerja dengan manajer saat ini hanya 0–2.5 tahun.
 5. Departemen dengan attrition tertinggi adalah Research, diikuti oleh Sales.
 6. Mayoritas karyawan yang keluar memiliki gaji sekitar $2.5k, mengindikasikan potensi korelasi antara pendapatan dan tingkat keluar.
@@ -83,7 +83,7 @@ Berdasarkan dashboard yang telah dibuat, didapatkan beberapa insight terkait kar
 8. Status lajang (single) mendominasi populasi karyawan yang keluar.
 9. Karyawan dengan frekuensi perjalanan rendah (rarely travels) menunjukkan tingkat keluar yang lebih tinggi.
 10. Bidang pendidikan (Education Field) terbanyak dari karyawan yang keluar adalah Life Sciences.
-11. Mayoritas karyawan yang keluar hanya memiliki 1.5–2.5 kali pelatihan dalam setahun, dari maksimal 7.
+11. Mayoritas karyawan yang keluar hanya memiliki 1.5–2.5 kali pelatihan dalam setahun.
 12. Role pekerjaan dengan tingkat keluar tertinggi adalah Laboratory Technician, disusul Sales Executive dan Research Scientist.
 
 ## Rekomendasi Action Items
