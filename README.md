@@ -98,13 +98,13 @@ Berdasarkan dashboard yang telah dibuat, didapatkan beberapa insight terkait kar
 12. Role pekerjaan dengan tingkat keluar tertinggi adalah Laboratory Technician, disusul Sales Executive dan Research Scientist.
 
 ## Rekomendasi Action Items
-* **Perkuat Hubungan antara Karyawan dan Manajer di Awal Masa Kerja**
+* **Perkuat Hubungan antara Karyawan dan Manajer di Awal Masa Kerja.**
 Fokuslah pada program coaching atau pembinaan dan komunikasi terbuka sejak 0–2.5 tahun pertama, agar tercipta hubungan kerja yang nyaman dan saling percaya.
-* **Ciptakan Lingkungan Kerja yang Lebih Nyaman**
+* **Ciptakan Lingkungan Kerja yang Lebih Nyaman.**
 Rating kepuasan terhadap lingkungan kerja masih rendah, hanya di angka 1–1.5 dari 4. Perusahaan sebaiknya meninjau kembali kenyamanan fasilitas, kebersihan, serta suasana kerja tim dan hubungan antar rekan.
-* **Berikan Perhatian Khusus pada Posisi dan Departemen dengan Turnover Tinggi**
+* **Berikan Perhatian Khusus pada Posisi dan Departemen dengan Turnover Tinggi.**
 Misalnya, posisi seperti Laboratory Technician, Sales Executive, dan departemen Research. Perlu strategi khusus untuk menjaga karyawan tetap betah di bagian-bagian ini.
-* **Tingkatkan Program Pelatihan dan Pengembangan Karyawan**
+* **Tingkatkan Program Pelatihan dan Pengembangan Karyawan.**
 Banyak karyawan keluar setelah hanya mendapatkan 1.5–2.5 pelatihan per tahun. Dengan meningkatkan jumlah dan kualitas pelatihan, karyawan akan merasa lebih berkembang dan termotivasi untuk bertahan
-* **Lakukan Evaluasi dan Penyesuaian Gaji**
+* **Lakukan Evaluasi dan Penyesuaian Gaji.**
 Karena sebagian besar karyawan yang keluar bergaji sekitar $2.5k, perusahaan perlu memastikan struktur gaji tetap kompetitif dan sesuai dengan beban kerja, terutama untuk posisi-posisi yang rawan ditinggalkan.
