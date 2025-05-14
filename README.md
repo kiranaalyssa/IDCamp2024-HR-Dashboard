@@ -26,7 +26,7 @@ Sumber Data:
 
 Setup Environment:
 1. Instalasi library Pandas SQLAlchemy.
-2. Untuk **menghubungkan aplikasi Python dengan database PostgreSQL di Supabase** menggunakan **SQLAlchemy** seperti kode dibawah ini. Setelah terhubung, data yang disimpan dalam variabel `df` (DataFrame) akan dipindahkan ke dalam tabel **'employee_attrition'** di database Supabase.
+2. Untuk **menghubungkan aplikasi Python dengan database PostgreSQL di Supabase** menggunakan **SQLAlchemy** seperti kode dibawah ini. Setelah terhubung, data yang disimpan dalam variabel df (DataFrame) akan dipindahkan ke dalam tabel **'employee_attrition'** di database Supabase.
 
         ```
         from sqlalchemy import create_engine
