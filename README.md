@@ -60,7 +60,7 @@ Fitur ini berfungsi untuk menampilkan data aktual terkini yang meliputi:
 </div>
 
 * Pie Chart Attrition by Gender: Menampilkan perbandingan jumlah karyawan yang keluar berdasarkan jenis kelamin.
-* Bar Chart Attrition by Current Manager: Menggambarkan tahun keberapa karyawan mengalami attrition berdasarkan manajer yang menaunginya.
+* Bar Chart Attrition by Current Manager: Menggambarkan tahun keberapa karyawan mengalami attrition berdasarkan manajer terkini.
 * Pie Chart Attrition by Department: Menunjukkan divisi atau departemen dengan jumlah attrition tertinggi.
 * Bar Chart Attrition by Salary Range: Menampilkan distribusi attrition berdasarkan rentang gaji karyawan.
 * Pivot Table Environment Satisfaction: Menyajikan tingkat kepuasan kerja karyawan yang keluar berdasarkan lingkungan kerja.
@@ -68,7 +68,7 @@ Fitur ini berfungsi untuk menampilkan data aktual terkini yang meliputi:
 * Pie Chart Attrition by Business Travel: Memvisualisasikan frekuensi perjalanan dinas yang berkorelasi dengan tingkat attrition.
 * Bar Chart Attrition by Education Field: Menampilkan komposisi attrition berdasarkan latar belakang pendidikan terakhir.
 * Pivot Table Training Times Last Year: Menggambarkan jumlah pelatihan yang diikuti oleh karyawan yang keluar selama satu tahun terakhir.
-* Bar Chart Attrition by Job Role: Memperlihatkan perbandingan jumlah karyawan yang keluar berdasarkan posisi atau peran mereka di perusahaan.
+* Bar Chart Attrition by Job Role: Memperlihatkan perbandingan jumlah karyawan yang keluar berdasarkan posisi mereka di perusahaan.
 
 ## Conclusion
 Berdasarkan dashboard yang telah dibuat, didapatkan beberapa insight terkait karyawan yang mengalami attrition yaitu:
