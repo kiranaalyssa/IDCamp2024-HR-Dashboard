@@ -41,5 +41,6 @@ df.to_sql('employee_attrition', engine)
 ## Business Dashboard
 Dashboard yang dibuat menyajikan data dalam format angka aktual dan grafik visual. Berikut adalah penjelasan mengenai setiap fitur yang terdapat pada dashboard tersebut:
 
+![Image](https://github.com/user-attachments/assets/88f500b6-dcf9-4b54-b42f-78a4ca2be613)
 
 
