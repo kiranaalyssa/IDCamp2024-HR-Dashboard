@@ -31,7 +31,7 @@ Setup Environment:
         ```
         from sqlalchemy import create_engine
 
-        URL = 'your_database_password_here'  # Ganti dengan password yang sesuai
+        URL = [your_database_password_here]  # Ganti dengan password yang sesuai
 
         engine = create_engine(URL)
         df.to_sql('employee_attrition', engine)
