@@ -42,7 +42,9 @@ df.to_sql('employee_attrition', engine)
 Dashboard yang dibuat menyajikan data dalam format angka aktual dan grafik visual. Berikut adalah penjelasan mengenai setiap fitur yang terdapat pada dashboard tersebut:
 
 1. Indikator Kinerja Utama (KPI) terkait jumlah data real-time.
-![Image](https://github.com/user-attachments/assets/88f500b6-dcf9-4b54-b42f-78a4ca2be613)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/88f500b6-dcf9-4b54-b42f-78a4ca2be613" width="600"/>
+</div>
 
 Fitur ini berfungsi untuk menampilkan data aktual terkini yang meliputi:
 * Jumlah Karyawan yang bekerja
