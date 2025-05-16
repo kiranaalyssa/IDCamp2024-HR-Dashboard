@@ -25,18 +25,81 @@ Dashboard ini akan dibuat menggunakan Metabase, yang terintegrasi dengan databas
 Sumber Data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
 Setup Environment:
-1. Instalasi library Pandas SQLAlchemy.
-2. Untuk **menghubungkan Python dengan database PostgreSQL di Supabase** menggunakan **SQLAlchemy** seperti kode dibawah ini. Setelah terhubung, data yang disimpan dalam variabel df (DataFrame) akan dipindahkan ke dalam tabel **employee_attrition** di database Supabase.
+1. Install dependensi
+```
+pip install -r requirements.txt
+```
+2. Jalankan perintah berikut pada Command Prompt untuk memanggil (pull) Docker image untuk menjalankan Metabase.
+```
+docker pull metabase/metabase:v0.54.5
+```
+3. Jalankan container Metabase
+```
+docker run -d -p 3000:3000 --name metabase metabase/metabase:v0.54.5
+```
+4. Akses Metabase dari browser: http://localhost:3000
+5. Lakukan setup awal dan hubungkan ke database Supabase PostgreSQL. Login ke Supabase untuk akses database: https://supabase.com/dashboard/sign-in
+6. Hubungkan Python ke PostgreSQL Supabase menggunakan SQLAlchemy untuk mengirim dataset:
 ```
 from sqlalchemy import create_engine
+import pandas as pd
 
-URL = [your_database_password_here]  # Ganti dengan password yang sesuai
-
+URL = "postgresql://username:password@host:port/dbname"  # Ganti dengan koneksi kamu
 engine = create_engine(URL)
-df.to_sql('employee_attrition', engine)
+
+df.to_sql('employee_attrition', engine, if_exists='replace', index=False)
+
+7. Jalankan model prediksi menggunakan script predict.py:
 ```
-   
-3. Membuat container Metabase versi metabase/metabase:latest pada Docker dan dijalankan di port 3000:3000.
+python prediction.py
+```
+Isi prediction.py:
+```
+import joblib
+import pandas as pd
+
+model = joblib.load("employees_attrition_model.pkl")
+
+newdata = pd.DataFrame([{
+    "Age": 37,
+    "BusinessTravel": 2,
+    "DailyRate": 1141,
+    "Department": 1,
+    "DistanceFromHome": 11,
+    "Education": 2,
+    "EducationField": 3,
+    "EnvironmentSatisfaction": 1,
+    "Gender": 0,
+    "HourlyRate": 61,
+    "JobInvolvement": 1,
+    "JobLevel": 2,
+    "JobRole": 0,
+    "JobSatisfaction": 2,
+    "MaritalStatus": 1,
+    "MonthlyIncome": 4777,
+    "MonthlyRate": 14382,
+    "NumCompaniesWorked": 5,
+    "OverTime": 0,
+    "PercentSalaryHike": 15,
+    "PerformanceRating": 3,
+    "RelationshipSatisfaction": 1,
+    "StockOptionLevel": 0,
+    "TotalWorkingYears": 15,
+    "TrainingTimesLastYear": 2,
+    "WorkLifeBalance": 1,
+    "YearsAtCompany": 1,
+    "YearsInCurrentRole": 0,
+    "YearsSinceLastPromotion": 0,
+    "YearsWithCurrManager": 0
+}])
+
+pred = model.predict(newdata)
+
+if pred[0] == 1:
+  print("Employees at risk of attrition")
+else:
+  print("Employees not at risk of attrition")
+```
 
 ## Business Dashboard
 Dashboard yang dibuat menyajikan data dalam format angka aktual dan grafik visual. Berikut adalah penjelasan mengenai setiap fitur yang terdapat pada dashboard tersebut:
