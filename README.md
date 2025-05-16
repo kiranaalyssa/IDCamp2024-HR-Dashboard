@@ -56,7 +56,7 @@ engine = create_engine(URL)
 df.to_sql('employee_attrition', engine, if_exists='replace', index=False)
 ```
 
-7. Jalankan model prediksi menggunakan script predict.py:
+7. Untuk jalankan model prediksi menggunakan script:
 ```
 python prediction.py
 ```
