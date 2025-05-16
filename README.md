@@ -48,6 +48,7 @@ URL = "postgresql://username:password@host:port/dbname"  # Ganti dengan koneksi 
 engine = create_engine(URL)
 
 df.to_sql('employee_attrition', engine, if_exists='replace', index=False)
+```
 
 7. Jalankan model prediksi menggunakan script predict.py:
 ```
