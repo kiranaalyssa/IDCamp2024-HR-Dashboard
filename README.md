@@ -44,7 +44,7 @@ docker run -d -p 3000:3000 --name metabase metabase/metabase:v0.54.5
 from sqlalchemy import create_engine
 import pandas as pd
 
-URL = "postgresql://username:password@host:port/dbname"  # Ganti dengan koneksi kamu
+URL = [YourPassword]  # Ganti dengan password database yang sesuai
 engine = create_engine(URL)
 
 df.to_sql('employee_attrition', engine, if_exists='replace', index=False)
