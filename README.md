@@ -37,8 +37,14 @@ docker pull metabase/metabase:v0.54.5
 ```
 docker run -d -p 3000:3000 --name metabase metabase/metabase:v0.54.5
 ```
-4. Akses Metabase dari browser: http://localhost:3000
-5. Lakukan setup awal dan hubungkan ke database Supabase PostgreSQL. Login ke Supabase untuk akses database: https://supabase.com/dashboard/sign-in
+4. Akses Metabase dari browser
+```
+http://localhost:3000
+```
+5. Lakukan setup awal dan hubungkan ke database Supabase PostgreSQL. Login ke Supabase untuk akses database
+```
+https://supabase.com/dashboard/sign-in
+```
 6. Hubungkan Python ke PostgreSQL Supabase menggunakan SQLAlchemy untuk mengirim dataset:
 ```
 from sqlalchemy import create_engine
