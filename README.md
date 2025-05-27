@@ -37,7 +37,7 @@ docker pull metabase/metabase:v0.54.5
 ```
 docker run -d -p 3000:3000 --name metabase metabase/metabase:v0.54.5
 ```
-4. Akses Metabase dari browser
+4. Akses Metabase dari browser.
 ```
 http://localhost:3000
 ```
