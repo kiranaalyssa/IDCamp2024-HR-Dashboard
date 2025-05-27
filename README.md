@@ -25,7 +25,7 @@ Dashboard ini akan dibuat menggunakan Metabase, yang terintegrasi dengan databas
 Sumber Data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
 
 Setup Environment:
-1. Install dependensi
+1. Install dependensi.
 ```
 pip install -r requirements.txt
 ```
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 docker pull metabase/metabase:v0.54.5
 ```
-3. Jalankan container Metabase
+3. Jalankan container Metabase.
 ```
 docker run -d -p 3000:3000 --name metabase metabase/metabase:v0.54.5
 ```
@@ -41,11 +41,11 @@ docker run -d -p 3000:3000 --name metabase metabase/metabase:v0.54.5
 ```
 http://localhost:3000
 ```
-5. Lakukan setup awal dan hubungkan ke database Supabase PostgreSQL. Login ke Supabase untuk akses database
+5. Lakukan setup awal dan hubungkan ke database Supabase PostgreSQL. Login ke Supabase untuk akses database.
 ```
 https://supabase.com/dashboard/sign-in
 ```
-6. Hubungkan Python ke PostgreSQL Supabase menggunakan SQLAlchemy untuk mengirim dataset:
+6. Hubungkan Python ke PostgreSQL Supabase menggunakan SQLAlchemy untuk mengirim dataset.
 ```
 from sqlalchemy import create_engine
 import pandas as pd
@@ -56,7 +56,7 @@ engine = create_engine(URL)
 df.to_sql('employee_attrition', engine, if_exists='replace', index=False)
 ```
 
-7. Untuk jalankan model prediksi menggunakan script:
+7. Untuk jalankan model prediksi menggunakan script.
 ```
 python prediction.py
 ```
